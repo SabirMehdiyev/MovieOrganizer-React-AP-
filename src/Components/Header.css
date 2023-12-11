@@ -1,0 +1,21 @@
+.header {
+    background: #496DDB;
+    padding: 10px;
+}
+
+.header-title {
+    font-family: 'Luckiest Guy', cursive;
+    color: #FFEEDB;
+    font-size: 45px;
+    margin-left: 40px;
+}
+h1{
+    margin: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .header-title {
+        font-size: 30px;
+        margin-left: 20px; 
+    }
+}
